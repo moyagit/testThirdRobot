@@ -1,0 +1,15 @@
+.DS_Store
+dump.rdb
+target
+.settings
+.classpath
+.project
+.idea
+*.iml
+logs
+*LocalTest*
+*localTest*
+*localtest*
+*.swo
+*.swp
+target/*
