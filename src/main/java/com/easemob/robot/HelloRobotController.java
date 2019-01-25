@@ -45,7 +45,7 @@ public class HelloRobotController {
             return robotResponse;
         }else if(atomicInteger.get()%4==3){
             log.info("go into best answer transfer kefu with special group");
-            // 转人工答案 转到特定的技能组 集尘环信客服
+            // 转人工答案 转到特定的技能组 集成环信客服
             Gson gson = new Gson();
             RobotResponse robotResponse = new RobotResponse();
             robotResponse.setResultType(ThirdResultType.BEST_MATCH);
